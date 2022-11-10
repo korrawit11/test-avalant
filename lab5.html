@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avalant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Personal Information -->
+    <div class="field">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div class="container-personal">
+          <a>
+            <form name="form" id="form">
+              <div class="firstname-box">
+                <a class="firstname">First Name</a>
+
+                <input
+                  type="text"
+                  name="text"
+                  class="input-name"
+                  maxlength="50"
+                  id="name"
+                />
+                <a class="gender">Gender</a>
+                <a class="check-gender">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="Female"
+                    id="name"
+                    checked
+                  />Female
+                  <input type="radio" value="Male" name="gender"id='name' checked />Male
+                </a>
+              </div>
+            </form>
+          </a>
+          <a>
+            <form name="form1" id="form">
+              <div class="lastname-box">
+                <a class="lastname">Last Name</a>
+                <input type="text" name="text1"class="input-gender" id="name"maxlength="50" />
+                <a class="national">Nationality</a>
+                <a class="dropdown">
+                  <select name="national" id="name"class="national">
+                    <option value="canadian">Canadian</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="brazilian">Brazilian</option>
+                    <option value="thai">Thai</option>
+                  </select>
+                </a>
+              </div>
+            </form>
+          </a>
+          <div class="address-box">
+            <form name="form2" id="form">
+            <a class="address">Address</a>
+            <input
+              type="text"
+              name="address"
+              id="name"
+              class="address-input"
+              maxlength="300"
+            />
+          </form>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <div class="field">
+      <fieldset>
+        <legend>Medical History</legend>
+        <div class="medical-box">
+          <form name="form3" id="form">
+            <input
+              type="checkbox"
+              name="check"
+              id="name"
+              class="medic"
+              value="smallpox"
+            />
+            <label>Smallpox</label>
+            <input type="checkbox" name="check" 
+            id='name'class="medic" value="mumps" />
+            <label>Mumps</label>
+            <input
+              type="checkbox"
+              name="check"
+              id="name"
+              class="medic"
+              value="dizziness"
+            />
+            <label>Dizziness</label>
+            <input
+              type="checkbox"
+              name="check"
+              class="medic"
+              value="sneezing"
+            />
+            <label>Sneezing</label>
+          </form>
+        </div>
+      </fieldset>
+    </div>
+    <div class="field">
+      <fieldset>
+        <legend>Current Medication</legend>
+        <form name="form4" id="form">
+          <p class="paragraph1">
+            Are you currently taking any medication?
+            <input
+              type="radio"
+              id="name"
+              name="question"
+              value="Yes"
+              checked
+            />
+            <span>Yes</span>
+            <input
+              type="radio"
+              id="name"
+              name="question"
+              value="No"
+              checked
+            />
+            <span>No</span>
+          </p>
+          <p class="paragraph2">
+            If you are currently taking medication, please indicate it in the
+            space below:
+          </p>
+          <input type="text" name="current"id='name'class="current-medic" />
+        </form>
+      </fieldset>
+    </div>
+    <div class="button">
+      <button type="button" id="button1" onclick="required()">Submit</button>
+      <button type="button" class="button2" value="clear">Reset</button>
+      <script src="validate_form.js">
+      </script>
+    </div>
+  </body>
+</html>

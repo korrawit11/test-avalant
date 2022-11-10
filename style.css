@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.field {
+    margin-left: 5px;
+    width: 600px;
+}
+
+legend {
+    margin: 20px 0 10px 20px;
+}
+
+.container-personal {
+    border: 1px solid black;
+    margin: 5px;
+    width: 416px;
+    padding-top: 3px;
+}
+
+.firstname {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.input-name {
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.gender {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.check-gender {
+    border: 1px solid black;
+    margin: 1px;
+    padding: 1px;
+}
+
+.firstname-box {
+    margin: 0 5px;
+}
+
+.lastname {
+    border: 1px solid black;
+    padding: 1px 3px 1px 1px;
+}
+
+.national {
+    border: 1px solid black;
+    margin: 1px;
+    padding: 1px;
+}
+
+.dropdown {
+    border: 1px solid black;
+    padding: 1.5px;
+
+}
+
+.lastname-box {
+    margin: 0 5px;
+    padding-top: 3px;
+}
+
+.address-box {
+    margin: 5px 0;
+}
+
+.address {
+    border: 1px solid black;
+    padding: 21px 10px;
+    margin-left: 5px;
+    
+}
+
+.address-input {
+    height: 60px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.current-medic {
+    height: 200px;
+    width: 700px;
+    margin: 0 20px 10px 20px;
+}
+
+.medical-box {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.medic {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+.paragraph1
+ {
+    margin-left: 20px;
+}
+
+.paragraph2 {
+    margin-left: 20px;
+}
+
+
+.button {
+    margin: 5px 0 0 5px;
+}
